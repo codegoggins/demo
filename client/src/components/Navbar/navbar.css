@@ -1,0 +1,70 @@
+.navbar{
+    width: 100%;
+    background: linear-gradient(to right, #38ef7d, #11998e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    height: 60px;
+    position: sticky;
+    top: 0;
+    display: flex;
+    align-items: center;
+}
+
+/* LEFT */
+
+.left{
+    flex: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.left h1{
+    font-weight: 600;
+}
+
+.left h1 span{
+    color: white;
+}
+
+/* CENTER */
+
+.center{
+    flex: 6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.center .center-list{
+    list-style: none;
+    display: flex;
+    gap: 3.5rem;
+    cursor: pointer;
+}
+
+.center .center-list li{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+/* RIGHT */
+
+.right{
+    flex: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:1rem;
+}
+
+/* REGISTER & LOGIN BUTTON */
+
+.btn{
+    padding: 0.6rem 1rem;
+    font-size: 0.9rem;
+    background-color: #38ef7d;
+    font-weight: bold;
+    border: none;
+    border-radius: 0.3rem;
+    cursor: pointer;
+}
