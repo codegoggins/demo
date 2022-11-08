@@ -1,0 +1,12 @@
+.posts-container{
+    max-width: 1200px;
+    margin: 0 auto;
+    /* background-color: red; */
+    height: 600px;
+}
+
+.posts-title{
+    text-align: center;
+    /* color: #1cce60; */
+    color:#11998e ;
+}
