@@ -1,0 +1,53 @@
+.post{
+    display: flex;
+    cursor: pointer;
+}
+
+.post-container{
+    border: 3px solid #1cce60;
+    border-radius: 10px;
+    overflow: hidden;
+
+}
+
+.post-container img{
+    width: 300px;
+    height: 300px;
+    object-fit: contain;
+}
+
+.post-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    background-color: rgb(238, 229, 229);
+    padding: 1rem;
+}
+
+.book-details{
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.book-details .item-desc{
+    font-style: italic;
+}
+
+.user-details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 3rem;
+}
+
+.user-details .user p{
+    font-size: 0.9rem;
+    font-style: italic;
+    color: #11998e;
+}
+
+.upload-time p{
+   font-style: italic;
+   font-size: 0.8rem;
+}
