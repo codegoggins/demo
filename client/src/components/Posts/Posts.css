@@ -1,12 +1,16 @@
-.posts-container{
+.posts{
+    padding: 5rem 0;
     max-width: 1200px;
     margin: 0 auto;
     /* background-color: red; */
-    height: 600px;
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 4rem;
 }
 
 .posts-title{
     text-align: center;
     /* color: #1cce60; */
     color:#11998e ;
+    margin-bottom: 4rem;
 }
