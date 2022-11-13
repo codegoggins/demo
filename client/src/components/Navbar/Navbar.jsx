@@ -6,8 +6,8 @@ const Navbar = () => {
   return (
     <div className='navbar'>
         <div className="nav-container">
-        <div className='left'>
-            <h1>ho<span>s</span>t<span>ell</span></h1>
+            <div className='left'>
+            <h1>hostell</h1>
             </div>
             <div className='center'>
                 <ul className='center-list'>

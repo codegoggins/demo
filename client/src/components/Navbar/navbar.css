@@ -2,15 +2,17 @@
     margin: 0;
     padding: 0;
 }
+
+
 .navbar{
     width: 100%;
-    background: linear-gradient(to right, #38ef7d, #11998e);
     position: sticky;
     top: 0;
 }
 
 .nav-container{
     max-width: 1200px;
+    background-color:white;
     margin: 0 auto;
     height: 60px;
     display: flex;
@@ -27,8 +29,11 @@
     justify-content: center;
 }
 
-.left h1{
+.left h1,span{
+    font-family: 'Kaushan Script', cursive;
     font-weight: 600;
+    font-size: 2.8rem;
+    letter-spacing: 0.8px;
 }
 
 .left h1 span{
@@ -69,11 +74,11 @@
 /* REGISTER & LOGIN BUTTON */
 
 .btn{
-    padding: 0.6rem 1rem;
+    padding: 0.8rem 1.5rem;
     font-size: 0.9rem;
-    background-color: #38ef7d;
-    font-weight: bold;
+    background-color: black;
+    color: white;
     border: none;
-    border-radius: 0.3rem;
+    border-radius: 200px;
     cursor: pointer;
 }
