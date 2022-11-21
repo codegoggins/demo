@@ -7,7 +7,7 @@ const Navbar = () => {
     <div className='navbar'>
         <div className="nav-container">
             <div className='left'>
-            <h1>hostell</h1>
+            <h1 className='h1'>hostell</h1>
             </div>
             <div className='center'>
                 <ul className='center-list'>
@@ -24,5 +24,5 @@ const Navbar = () => {
     </div>
   )
 }
-
+ 
 export default Navbar

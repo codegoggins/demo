@@ -1,20 +1,99 @@
-*{
+:root{
+
+    /* COLOURS */
+
+    --black:rgb(0, 0, 0);
+    --black-1:rgba(20, 21, 25, 0.8);
+    --gray-1: rgb(204, 204, 204);
+    --gray-2: rgb(206, 206, 208);
+    --gray-3: rgba(255, 255, 255, 0.2);
+    --white: rgb(255, 255, 255);
+
+
+
+    /* FONT SIZE */
+    --fs-1: 3.6rem;
+    --fs-2: 3.2rem;
+    --fs-3: 2.4rem;
+    --fs-4: 2.2rem;
+    --fs-5: 2rem;
+    --fs-6: 1.8rem;
+    --fs-7: 1.5rem;
+    --fs-8: 1.4rem;
+    --fs-9: 1.3rem;
+
+    /* FONT WEIGHT */
+    --fw-700: 700;
+    --fw-500: 500;
+    --fw-300: 300;
+  
+    /* RADIUS */
+    --radius-16: 16px;
+    --radius-pill: 200px;
+    --radius-circle: 50%;
+
+    /* TRANSITION */
+    --transition-1: 0.25s ease;
+    --transition-2: 0.5s ease;
+}
+
+/* RESET */
+
+*,
+*::before,
+*::after{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
+
+li{
+    list-style: none;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+input{
+    width:100%;
+    outline: none;
+}
+
+button{
+    cursor: pointer;
+}
+
+.h1,.h2,.h3,.h4,.h5{
+    line-height: 1.2;
+}
+
+.h1,.h2{ 
+    font-weight: var(--fw-300); 
+}
+
+.h1 { font-size: var(--fs-1); }
+
+.h2 { font-size: var(--fs-2); }
+
+.h3 { font-size: var(--fs-3); }
+
+.h4 { font-size: var(--fs-4); }
+
+.h5 { font-size: var(--fs-6); }
+
 
 
 .navbar{
     width: 100%;
-    position: sticky;
-    top: 0;
 }
 
 .nav-container{
     max-width: 1200px;
-    background-color:white;
+    background-color:var(--white);
     margin: 0 auto;
-    height: 60px;
+    height: 80px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -32,12 +111,11 @@
 .left h1,span{
     font-family: 'Kaushan Script', cursive;
     font-weight: 600;
-    font-size: 2.8rem;
     letter-spacing: 0.8px;
 }
 
 .left h1 span{
-    color: white;
+    color: var(--white);
 }
 
 /* CENTER */
@@ -76,9 +154,8 @@
 .btn{
     padding: 0.8rem 1.5rem;
     font-size: 0.9rem;
-    background-color: black;
-    color: white;
+    background-color: var(--black);
+    color: var(--white);
     border: none;
-    border-radius: 200px;
-    cursor: pointer;
+    border-radius: var(--radius-pill);
 }
