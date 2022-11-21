@@ -11,9 +11,9 @@ const Navbar = () => {
             </div>
             <div className='center'>
                 <ul className='center-list'>
-                    <li className='center-list-item'>Home</li>
-                    <li className='center-list-item'>About</li> 
-                    <li className='center-list-item'>Sell</li> 
+                    <li className='center-list-item hover:underline'>Home</li>
+                    <li className='center-list-item hover:underline'>About</li> 
+                    <li className='center-list-item hover:underline'>Sell</li> 
                 </ul>
             </div>
             <div className='right'>

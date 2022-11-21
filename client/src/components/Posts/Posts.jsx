@@ -8,11 +8,7 @@ const Posts = () => {
                         <Post/>
                         <Post/>
                         <Post/>
-                        <Post/>
-                        <Post/>
                         <Post/> 
-                        <Post/>
-                        <Post/>
                         <Post/>
                         <Post/>
                         <Post/>
