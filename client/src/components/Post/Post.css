@@ -1,3 +1,4 @@
+
 .post{
     display: flex;
     cursor: pointer;
@@ -29,11 +30,12 @@
 }
 
 .book-details .item-name{
+   font-size:var(--fs-5) ;
    color: var(--black); 
 }
 
 .book-details .item-desc{
-   font-size: var(--fs-9);
+   font-size: var(--fs-7);
    font-weight: var(--fw-500);
    color: var(--black-1); 
 }
@@ -46,12 +48,12 @@
 }
 
 .user-details .user p{
-   font-size: var(--fs-9);
+   font-size: var(--fs-7);
    font-weight: var(--fw-500);
     color: var(--black);
 }
 
 .upload-time p{
-   font-size: var(--fs-9);
+   font-size: var(--fs-7);
    font-weight: var(--fw-500);
 }

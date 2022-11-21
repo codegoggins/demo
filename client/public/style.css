@@ -8,6 +8,7 @@
     --gray-2: rgb(206, 206, 208);
     --gray-3: rgba(255, 255, 255, 0.2);
     --gray-4: rgb(46, 46, 46);
+    --gray-5: rgb(140, 137, 137);
     --white: rgb(255, 255, 255);
 
 
@@ -52,7 +53,6 @@ a{
 }
 
 input{
-    width:100%;
     outline: none;
 }
 

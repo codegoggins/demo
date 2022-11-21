@@ -10,7 +10,7 @@ const Post = () => {
         </div>
          <div className='post-content'>
               <div className='book-details'>
-              <h4 className='item-name h5'>RD SHARMA</h4>
+              <h4 className='item-name'>RD SHARMA</h4>
               <p className='item-desc'>Mathematics Books</p>
               </div>
               <div className='user-details'>
