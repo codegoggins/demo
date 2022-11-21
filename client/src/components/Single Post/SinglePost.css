@@ -1,0 +1,57 @@
+/* SINGLE POST */
+
+.single-post{
+    display: flex;
+    flex-direction: column;
+    gap:var(--fs-2);
+}
+
+.sp-img img{
+    object-fit: cover;
+    width: 100%;
+    border-radius: var(--radius-16);
+}
+
+.sp-content{
+    display: flex;
+    flex-direction: column;
+    gap: var(--fs-1);
+}
+
+.sp-book-details{
+    display: flex;
+    flex-direction: column;
+    gap: var(--fs-8);
+}
+
+
+.sp-user-details{
+    display: flex;
+    justify-content: space-between;
+    font-weight: var(--fw-500);
+    color: var(--gray-4);
+}
+
+.sp-item-desc{
+font-style: italic;
+}
+
+.sp-edit{
+    font-size:var(--fs-3);
+    display: flex;
+    gap: var(--fs-1);
+}
+
+.sp-user{
+    display: flex;
+    flex-direction: column;
+    gap: var(--fs-10);
+}
+
+.sp-delete{
+  cursor: pointer;
+}
+
+.sp-update{
+    cursor: pointer;
+}

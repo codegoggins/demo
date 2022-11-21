@@ -1,0 +1,79 @@
+:root{
+
+    /* COLOURS */
+
+    --black:rgb(0, 0, 0);
+    --black-1:rgba(20, 21, 25, 0.8);
+    --gray-1: rgb(204, 204, 204);
+    --gray-2: rgb(206, 206, 208);
+    --gray-3: rgba(255, 255, 255, 0.2);
+    --gray-4: rgb(46, 46, 46);
+    --white: rgb(255, 255, 255);
+
+
+
+    /* FONT SIZE */
+    --fs-1: 3rem;
+    --fs-2: 2.6rem;
+    --fs-3: 2.2rem;
+    --fs-4: 1.8rem;
+    --fs-5: 1.4rem;
+    --fs-6: 1.2rem;
+    --fs-7: 1rem;
+    --fs-8: 0.8rem;
+    --fs-9: 0.6rem;
+    --fs-10: 0.4rem;
+
+
+    /* FONT WEIGHT */
+    --fw-700: 700;
+    --fw-500: 500;
+    --fw-300: 300;
+  
+    /* RADIUS */
+    --radius-16: 16px;
+    --radius-pill: 200px;
+    --radius-circle: 50%;
+
+    /* TRANSITION */
+    --transition-1: 0.25s ease;
+    --transition-2: 0.5s ease;
+}
+
+/* RESET */
+
+li{
+    list-style: none;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+input{
+    width:100%;
+    outline: none;
+}
+
+button{
+    cursor: pointer;
+}
+
+.h1,.h2,.h3,.h4,.h5{
+    line-height: 1.2;
+}
+
+.h1,.h2{ 
+    font-weight: var(--fw-300); 
+}
+
+.h1 { font-size: var(--fs-1); }
+
+.h2 { font-size: var(--fs-2); }
+
+.h3 { font-size: var(--fs-3); }
+
+.h4 { font-size: var(--fs-4); }
+
+.h5 { font-size: var(--fs-6); }
