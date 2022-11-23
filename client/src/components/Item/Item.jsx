@@ -1,14 +1,14 @@
 import React from 'react'
-import './Post.css'
+import './Item.css'
 
-const Post = () => {
+const Item = () => {
   return (
-    <div className='post'>
-        <div className='post-container'>
-        <div className='post-banner'>
+    <div className='item'>
+        <div className='item-container'>
+        <div className='item-banner'>
         <img src="https://images.pexels.com/photos/1005012/pexels-photo-1005012.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" srcset="" />
         </div>
-         <div className='post-content'>
+         <div className='item-content'>
               <div className='book-details'>
               <h4 className='item-name'>RD SHARMA</h4>
               <p className='item-desc'>Mathematics Books</p>
@@ -28,4 +28,4 @@ const Post = () => {
   ) 
 }
 
-export default Post
+export default Item

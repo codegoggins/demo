@@ -1,57 +1,57 @@
 /* SINGLE POST */
 
-.single-post{
+.single-item{
     display: flex;
     flex-direction: column;
     gap:var(--fs-2);
 }
 
-.sp-img img{
+.single-img img{
     object-fit: cover;
     width: 100%;
     border-radius: var(--radius-16);
 }
 
-.sp-content{
+.single-content{
     display: flex;
     flex-direction: column;
     gap: var(--fs-1);
 }
 
-.sp-book-details{
+.single-book-details{
     display: flex;
     flex-direction: column;
     gap: var(--fs-8);
 }
 
 
-.sp-user-details{
+.single-user-details{
     display: flex;
     justify-content: space-between;
     font-weight: var(--fw-500);
     color: var(--gray-4);
 }
 
-.sp-item-desc{
+.single-item-desc{
 font-style: italic;
 }
 
-.sp-edit{
+.single-edit{
     font-size:var(--fs-3);
     display: flex;
     gap: var(--fs-1);
 }
 
-.sp-user{
+.single-user{
     display: flex;
     flex-direction: column;
     gap: var(--fs-10);
 }
 
-.sp-delete{
+.single-delete{
   cursor: pointer;
 }
 
-.sp-update{
+.single-update{
     cursor: pointer;
 }
