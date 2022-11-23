@@ -1,5 +1,5 @@
 import React from 'react'
-
+import {Link} from 'react-router-dom'
 import './navbar.css'
 
 const Navbar = () => {
@@ -11,14 +11,29 @@ const Navbar = () => {
             </div>
             <div className='center'>
                 <ul className='center-list'>
-                    <li className='center-list-item hover:underline'>Home</li>
-                    <li className='center-list-item hover:underline'>About</li> 
-                    <li className='center-list-item hover:underline'>Sell</li> 
+                    <li className='center-list-item hover:underline'>
+                    <Link to='/'>
+                        Home
+                    </Link>
+                    </li> 
+                    <li className='center-list-item hover:underline'>
+                    <Link to='/items/sell'>
+                        Sell
+                    </Link>
+                    </li> 
                 </ul>
             </div>
             <div className='right'>
-                <button className='btn'>Register</button>
-                <button className='btn'>Login</button>
+                <button className='btn'>
+                   <Link to='/register'>
+                   Register
+                    </Link>
+                </button>
+                <button className='btn'>
+                   <Link to='/login'>
+                   Login
+                    </Link>
+                </button>
             </div>
         </div>
     </div>

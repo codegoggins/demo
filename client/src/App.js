@@ -12,8 +12,8 @@ import '../src/globalStyles.css'
 function App() {
   return (
     <div className="App">
-    <Navbar/>
     <BrowserRouter>
+    <Navbar/>
     <Routes>
         <Route path="/">
           <Route index element={<Home />} />
@@ -27,8 +27,8 @@ function App() {
             </Route>
         </Route>
       </Routes>
-    </BrowserRouter>
     <Footer/>
+    </BrowserRouter>
     </div>
   );
 }
