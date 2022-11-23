@@ -4,7 +4,7 @@ import './Sell.css'
 const Sell = () => {
   return (
     <div className='sell'>
-         <img src="https://images.pexels.com/photos/159711/books-bookstore-book-reading-159711.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" />
+         <img src="https://images.pexels.com/photos/1888883/pexels-photo-1888883.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" />
          <form className='sellForm'>
                <div className='sf-item'>
                     <label htmlFor="fileInput">
