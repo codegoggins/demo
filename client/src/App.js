@@ -1,6 +1,7 @@
 import Navbar from "./components/Navbar/Navbar";
 import Posts from "./components/Posts/Posts";
 import Home from "./pages/Home/Home";
+import Login from "./pages/Login/Login";
 import Sell from "./pages/Sell/Sell";
 import Single from "./pages/Single/Single";
 
@@ -11,7 +12,8 @@ function App() {
         {/* <Home/>
         <Posts/> */}
         {/* <Single/> */}
-        <Sell/>
+        {/* <Sell/> */}
+        <Login/>
     </div>
   );
 }

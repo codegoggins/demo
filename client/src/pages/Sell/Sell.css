@@ -28,7 +28,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 10rem;
+    gap: 1rem;
+    cursor: pointer;
 }
 
 .sf-item i{
@@ -56,13 +57,13 @@
 
 }
 
-input{
+.sell input{
     font-size: 20px;
     border: none;
     padding: 20px;
     width: 60vw;
 }
-textarea{
+.sell textarea{
     font-size: 20px;
     border: none;
     padding: 20px;

@@ -21,7 +21,7 @@ const Sell = () => {
                     <input type="text" placeholder='Hostel Name' />                    
                </div>
                <button className='sellSubmit' type='submit'>Post</button>
-         </form>  
+         </form> 
 
     </div>
   )
