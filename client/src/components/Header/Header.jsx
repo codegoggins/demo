@@ -7,7 +7,7 @@ const Header = () => {
          <div className='container'>
               <div className='title'>
                     <h1 className="hero-title">
-                         <strong class="hero-start">Hey, we’re hostell.</strong> 
+                         <strong>Hey, we’re hostell.</strong> 
                          Sell your old notes, books and other accessories and help those who need it the most.
                     </h1>
               </div>

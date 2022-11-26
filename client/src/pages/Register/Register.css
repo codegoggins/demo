@@ -77,3 +77,11 @@
     cursor: pointer;
     align-self: center;
 }
+
+@media(max-width:992px){
+    
+    .register-container{
+        width: 700px;
+        max-width: 800px;
+    }
+}

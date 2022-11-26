@@ -11,14 +11,19 @@ const Navbar = () => {
             </div>
             <div className='center'>
                 <ul className='center-list'>
-                    <li className='center-list-item hover:underline'>
+                    <li className='center-list-item'>
                     <Link to='/'>
                         Home
                     </Link>
                     </li> 
-                    <li className='center-list-item hover:underline'>
+                    <li className='center-list-item'>
                     <Link to='/items/sell'>
                         Sell
+                    </Link>
+                    </li> 
+                    <li className='center-list-item'>
+                    <Link to='/items'>
+                        Items
                     </Link>
                     </li> 
                 </ul>

@@ -77,3 +77,28 @@
     font-weight: var(--fw-500);
     border-radius: var(--radius-pill);
 }
+
+
+ @media(max-width:992px){
+    .nav-container{
+     max-width: 800px;
+     margin: 1rem auto;
+    }
+
+    .btn{
+        padding: 0.8rem 1.2rem;
+        font-size: 0.8rem;
+    }
+    
+    .right{
+        gap:0.6rem;
+    }
+
+    .center .center-list{
+        gap: 2rem;
+    }
+    
+    .center .center-list li{
+        font-size: 1.3rem;
+    }
+ }
