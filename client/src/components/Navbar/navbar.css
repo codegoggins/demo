@@ -174,10 +174,30 @@
     }
  }
 
+ @media(max-width:768px){
+    .nav-container{
+     max-width: 400px;
+     margin: 1rem auto;
+     justify-content: space-around;
+    }
+    
+    .right,.center{
+        display: none;
+    }
+
+    .nav-toggle{
+        display: block;
+    }
+    .nav-toggle-list.open{
+        display: flex;
+    }
+ }
+
  @media(max-width:572px){
     .nav-container{
-     max-width: 450px;
+     max-width: 400px;
      margin: 1rem auto;
+     justify-content: space-around;
     }
     
     .right,.center{

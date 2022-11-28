@@ -6,7 +6,7 @@ const Item = () => {
     <div className='item'>
         <div className='item-container'>
         <div className='item-banner'>
-        <img src="https://images.pexels.com/photos/1005012/pexels-photo-1005012.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" srcset="" />
+        <img src="https://images.pexels.com/photos/1005012/pexels-photo-1005012.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt=""/>
         </div>
          <div className='item-content'>
               <div className='book-details'>

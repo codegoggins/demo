@@ -85,3 +85,71 @@
         max-width: 800px;
     }
 }
+
+@media(max-width:768px){
+    
+    .login{
+        height: 100vh;
+        padding: 2rem;
+    }
+    
+    .login-container{
+        max-width: 650px;
+    }    
+}
+
+@media(max-width:572px){
+    
+    .login{
+        height: 100vh;
+        padding: 1rem;
+    }
+    
+    .login-container{
+        max-width: 350px;
+        margin: 5rem auto;
+        height: 400px;
+        background: url('https://images.pexels.com/photos/721287/pexels-photo-721287.jpeg?auto=compress&cs=tinysrgb&w=600');
+        background-repeat: no-repeat;
+    }
+    
+    .login-form{
+        color: white;
+        gap: 2rem;
+    }
+    
+    .login form{
+        gap: 1rem;
+    }
+    
+    .login span{
+        font-size: var(--fs-6);
+    }
+    
+    
+    .login input{
+        padding: var(--fs-9);
+        font-size: var(--fs-8);
+    }
+    
+    .login input::placeholder{
+        font-size: var(--fs-8);
+    }
+    
+    .login label{
+        font-size: 15px;   
+    }
+    
+    .loginButton{
+        padding: 8px 20px 8px 20px;
+        font-size: 15px;
+    }
+    
+    .registerButton{
+        padding: 8px 20px 8px 20px;
+        font-size: 15px;
+    }
+    .login-img{
+        display: none;
+    }
+}

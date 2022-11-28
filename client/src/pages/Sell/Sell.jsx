@@ -9,7 +9,7 @@ const Sell = () => {
                <div className='sf-item'>
                     <label htmlFor="fileInput">
                     <p>Upload an Image of the Item</p>
-                    <i class="fa-solid fa-image"></i>
+                    <i className="fa-solid fa-image"></i>
                     </label>
                     <input type="file" id='fileInput' style={{display:"none"}}/>
                </div>

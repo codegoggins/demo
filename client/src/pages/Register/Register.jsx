@@ -13,10 +13,10 @@ const Register = () => {
                 <label>Username</label>
                 <input type="text" placeholder='Enter username' />
                 <label>Password</label>
-                <input type="text" placeholder='Enter password' />
+                <input type="password" placeholder='Enter password' />
                 <label>Email</label>
                 <input type="text" placeholder='Enter email' />
-                <button className='registerButton'>Register</button>
+                <button className='register-button'>Register</button>
             </form>
             </div>
         </div>
