@@ -1,5 +1,5 @@
 import React from 'react'
-import Item from '../Item/Item'
+import Item from '../../components/Item/Item'
 import './Items.css'
 
 const Items = () => {
@@ -17,4 +17,4 @@ const Items = () => {
   )
 }
 
-export default Items
+export default Items 
